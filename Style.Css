@@ -5,14 +5,20 @@ h1 {
 
 .container {
 font-family: Palatino, 'Palatino Linotype', Serif;
-  color: Antique white
-background-color: #33449f;
 }
 
 .nav {
+  	padding: 2px;
+	margin: 30px;
 background-color: #9899f8;  
 }
 
 .main {
+  color: antiquewhite;
+  font-size: 1em;
+
 Background-image: url("https://www.wilderutopia.com/wp-content/uploads/2014/05/Red-Pine-Tree-Rings-Nicholas-Benner.jpg");
+Background-size: cover;
+	padding: 250px;
+	margin: 30px;
 }
