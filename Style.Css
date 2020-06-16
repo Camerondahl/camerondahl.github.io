@@ -1,33 +1,35 @@
-h1 {
-  font-family: palatino, 'palatino linotype', serif;
-  color: antiquewhite;
-}
 
 .container {
+	font-family: palatino, 'palatino linotype', serif;
 	margin:1.5em;
-	border:5px solid #9899f8;
+	border:10px solid #0000007d;
 font-family: Palatino, 'Palatino Linotype', Serif;
 Background-image: url("https://www.wilderutopia.com/wp-content/uploads/2014/05/Red-Pine-Tree-Rings-Nicholas-Benner.jpg");
 Background-size: cover;
 }
 
 .nav {
+    color: antiquewhite;
   	padding: 1px 30px 30px 30px;
+	border: 2px dashed antiquewhite;
 	margin: 0px 250px 50px 250px;
-background-color: #9899f8;  
+background-color: #0000007d;  
 }
 
 .main {
   color: antiquewhite;
   font-size: 1.5em;
-
-
-	padding: 20px 100px 100px 100px;
+	background-color:#00000052;
+	padding: 20px 100px 30px 100px;
+	border: 2px solid antiquewhite;
 	margin: 30px;
 }
 
 .gallery {
-	display:flex;
+	Background-color: #00000052;
+	border: 2px dashed antiquewhite;
+	margin: 10px 30px 10px 30px;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
